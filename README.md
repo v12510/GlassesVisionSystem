@@ -1,2 +1,58 @@
 # GlassesVisionSystem
-GlassesVision is a smart glasses system that integrates computer vision and speech synthesis to provide real-time situational awareness to the visually impaired. Capture images through high-definition cameras, analyze scenes with deep learning models, and provide natural language speech feedback to help users "see" the world
+GlassesVision 是一款集成计算机视觉与语音合成的智能眼镜系统，旨在为视障人士提供实时环境感知能力。通过高清摄像头捕捉画面，结合深度学习模型分析场景，并以自然语言语音反馈，帮助用户"看见"世界。
+
+
+**核心功能**：
+- 实时物体检测与识别 🎯
+- 动态场景理解与风险评估 ⚠️
+- 多层级语音导航播报 🗣️
+- 自适应性能调节 ⚡
+- 隐私安全优先设计 🔒
+
+
+ ## 🌟 功能特性
+
+### 视觉感知
+- 360°环境扫描 (水平120° FOV)
+- 支持识别500+日常物体
+- 移动物体轨迹预测
+
+### 语音交互
+- 中英双语自然语言生成
+- 多优先级语音播报系统
+- 紧急事件即时警报
+
+### 智能适应
+- 光照条件自适应 (0.1-100,000 lux)
+- 动态负载均衡
+- 低功耗模式 (<20%电量自动启用)
+
+## 🧩 系统架构
+
+mermaid
+graph TD
+    A[摄像头] --> B[图像预处理]
+    B --> C[物体检测]
+    B --> D[场景理解]
+    C --> E[风险分析]
+    D --> F[文本生成]
+    E --> F
+    F --> G[语音合成]
+    G --> H[骨传导耳机]
+
+
+技术栈：
+视觉层: OpenCV + YOLOv8 + DeepSeek
+逻辑层: Python 3.10 + Asyncio
+交互层: SenseVoice TTS + 噪声抑制算法
+硬件: NVIDIA Jetson Nano + 12MP RGB-D相机
+
+🛠️ 安装指南
+环境要求
+Python 3.10+
+CUDA 11.8 (推荐)
+RAM ≥ 4GB
+
+
+
+  
