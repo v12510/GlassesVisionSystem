@@ -1,0 +1,13 @@
+scene:
+  context_window: 10  # 跟踪帧数
+  rules:
+    crossroad:
+      required: ["car", "traffic_light"]
+      optional: ["person", "bicycle"]
+      threshold: 0.6
+    office:
+      required: ["chair", "desk"]
+      optional: ["computer", "book"]
+  risk_thresholds:
+    speed: 0.4
+    distance: 150
