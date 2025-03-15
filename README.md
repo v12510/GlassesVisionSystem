@@ -53,7 +53,7 @@ Camera	Arducam 16MP	Sony IMX519
 
 ## **Software Installation**：
 
-git clone https://github.com/yourusername/GlassesVision.git
+git clone https://github.com/v12510/GlassesVision.git
 
 pip install -r requirements.txt
 
